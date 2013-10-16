@@ -20,11 +20,4 @@ public:
 	void ensureDirectory(String dirName);
 	bool fileExist(String dirName, String fileName);
 	int readVMsg(String filePath);
-private:
 
-    gaia::core::Context *mpContext;
-    IProgressUpdater* mpProgressUpdater;
-    bool mCancel;
-};
-
-#endif  // __ISD_INTERNAL_BACKUP_H__
