@@ -1,10 +1,3 @@
-#ifndef __ISD_INTERNAL_BACKUP_H__
-#define __ISD_INTERNAL_BACKUP_H__
-
-#include <gaia/core/Context.h>
-#include <gaia/base/String.h>
-#include "sdcardbackup/IProgressUpdater.h"
-#include "sdcardbackup/StubSdInternalInterface.h"
 
 using namespace gaia::base;
 class ISmsSdInternalBackup: public StubSdInternalInterface {
