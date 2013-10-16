@@ -17,7 +17,3 @@ public:
 
     virtual void setCallback( IProgressUpdater* callback );
 
-	void ensureDirectory(String dirName);
-	bool fileExist(String dirName, String fileName);
-	int readVMsg(String filePath);
-
